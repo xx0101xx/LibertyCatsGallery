@@ -1,14 +1,16 @@
-# 基于 threejs 的 3D 展厅
+<!-- # 基于 threejs 的 3D 展厅 -->
 
-基于 threejs 开发的 3D 展厅，展品可以自由摆放。支持 gltf/glb 格式
+<!-- 基于 threejs 开发的 3D 展厅，展品可以自由摆放。支持 gltf/glb 格式 -->
 
-在线演示：http://test4.h5ds.com/
+在线演示：https://libertycatsgallery.netlify.app/
 
-视频教程：https://www.bilibili.com/video/BV1pb4y13777/?spm_id_from=333.337.search-card.all.click
+<!-- 在线演示：http://test4.h5ds.com/
 
-![图片](test.png)
+视频教程：https://www.bilibili.com/video/BV1pb4y13777/?spm_id_from=333.337.search-card.all.click -->
 
-# 初始化实例
+<!-- ![图片](test.png) -->
+
+<!-- # 初始化实例
 
 ```javascript
 // 实例化
@@ -120,4 +122,4 @@ vr.gravity.open();
 
 // 关闭重力感应
 vr.gravity.close();
-```
+``` -->
