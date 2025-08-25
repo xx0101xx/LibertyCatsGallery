@@ -21,8 +21,14 @@ window.onload = function () {
     },
     onClick: (item) => {
       console.log("你点击了", item);
+      const targetUrl = 'https://web3.okx.com/zh-hans/nft/asset/polygon/0x0030f47d6a73bc518cf18fe027ea91dd6b2b6003/'
       if (item.url) {
+        if(item.name!=="名称"){
+          window.open(`${targetUrl}${item.name}`,'_blank');
+          return;
+        }
         Zoomtastic.show(item.url);
+        // Zoomtastic.show('https://web3.okx.com/zh-hans/nft/asset/polygon/0x0030f47d6a73bc518cf18fe027ea91dd6b2b6003/3000');
       }
       // alert(JSON.stringify(item, null, 2));
     },
@@ -170,7 +176,8 @@ window.onload = function () {
   // 导览点
   let shtml = "";
   data.forEach((d) => {
-    shtml += `<li class="item" data-id="${d.id}">Liberty Cats:${d.id}</li>`;
+    console.log("d===", d);
+    shtml += `<li class="item" data-id="${d.id}">Liberty Cats：${d.name}</li>`;
   });
   shtml += `<li class="gravity">重力感应</li>`;
 

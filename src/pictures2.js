@@ -1,7 +1,7 @@
 export const data = [
   {
     url: "./assets/pictures2/1.jpg",
-    name: "名称",
+    name: "3000",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: { x: 24.23375412142995, y: 2.3, z: 10.729648829537796 },
@@ -12,7 +12,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/2.jpg",
-    name: "名称",
+    name: "9033",
     desc: "信息描述",
     view: { x: 19.101, y: 2.1, z: 6.731 },
     scale: { x: 0.1, y: 0.1, z: 0.1 },

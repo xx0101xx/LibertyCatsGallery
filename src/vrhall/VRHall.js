@@ -458,10 +458,11 @@ export class VRHall {
     if (rayRes) {
       const { position, lookat, mesh } = rayRes;
       // 点击地面移动
-      console.log("rayRes", mesh, rayRes, position, {
-        x: event.clientX - left,
-        y: event.clientY - top,
-      });
+      // console.log("rayRes", mesh, rayRes, this._hallPlaneName, position, {
+      //   x: event.clientX - left,
+      //   y: event.clientY - top,
+      // });
+      console.log("你点击了", mesh.name,this._hallPlaneName);
       if (mesh.name === this._hallPlaneName) {
         // 移动
         this.moveTo(
@@ -469,6 +470,8 @@ export class VRHall {
           { x: lookat.x, y: this._options.movieHight, z: lookat.z },
           3
         );
+      } else if(mesh.name==='jianjieqiang'){
+          window.open("https://www.libertycatsnfts.com");
       }
     }
   }
