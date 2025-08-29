@@ -68,10 +68,10 @@ function keydown(e) {
     const leftInstance = e.targetTouches[0].clientX;
     if (leftInstance < screenWidth / 2) {
       holdingLeftKey = true;
-      console.log("keydown--左", leftInstance, screenWidth);
+      // console.log("keydown--左", leftInstance, screenWidth);
     } else {
       holdingRightKey = true;
-      console.log("keydown--右", leftInstance, screenWidth);
+      // console.log("keydown--右", leftInstance, screenWidth);
     }
   } else {
     if (e.keyCode === 65) {
