@@ -1,7 +1,13 @@
 import { defineConfig } from "vite";
 import path from "path";
 import vitePluginImp from "vite-plugin-imp";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 const resolve = (url) => path.resolve(__dirname, url);
+
+console.log(
+  "Jump file path===================================:",
+  resolve("jump/index.html")
+);
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,6 +18,15 @@ export default defineConfig({
           libName: "three",
           libDirectory: "src",
           camel2DashComponentName: false,
+        },
+      ],
+    }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: "jump/**/*",
+          dest: "jump",
+          preserveTree: true, // 明确指定保持目录结构
         },
       ],
     }),
@@ -33,6 +48,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve("index.html"),
+        jump: resolve("jump/jump.html"), // 添加 jump 文件作为额外入口
       },
     },
     minify: "terser",

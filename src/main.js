@@ -26,7 +26,7 @@ window.onload = function () {
       if (item.url) {
         if (item.name !== "名称") {
           if (item.name==='3000') {
-            location.href = `${location.href}jump/index.html`;
+            location.href = `${location.href}jump/jump.html`;
           }
           window.open(`${targetUrl}${item.name}`, "_blank");
           return;
