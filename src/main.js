@@ -21,10 +21,14 @@ window.onload = function () {
     },
     onClick: (item) => {
       console.log("你点击了", item);
-      const targetUrl = 'https://web3.okx.com/zh-hans/nft/asset/polygon/0x0030f47d6a73bc518cf18fe027ea91dd6b2b6003/'
+      const targetUrl =
+        "https://web3.okx.com/zh-hans/nft/asset/polygon/0x0030f47d6a73bc518cf18fe027ea91dd6b2b6003/";
       if (item.url) {
-        if(item.name!=="名称"){
-          window.open(`${targetUrl}${item.name}`,'_blank');
+        if (item.name !== "名称") {
+          if (item.name==='3000') {
+            location.href = `${location.href}jump/index.html`;
+          }
+          window.open(`${targetUrl}${item.name}`, "_blank");
           return;
         }
         Zoomtastic.show(item.url);
@@ -57,7 +61,7 @@ window.onload = function () {
       //   child.material.emissiveMap = child.material.map;
       // }
     });
-    
+
     const dm_OBJ = gltf.scene.getObjectByName("dm");
     dm_OBJ.material = m.dm_M;
     const dm2_OBJ = gltf.scene.getObjectByName("dm2");
