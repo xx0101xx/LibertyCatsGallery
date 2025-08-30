@@ -50,6 +50,7 @@ export default defineConfig({
         main: resolve("index.html"),
         jump: resolve("jump/jump.html"), // 添加 jump 文件作为额外入口
         model: resolve("model/index.html"), // 添加 model 文件作为额外入口
+        maolegemao: resolve("maolegemao/maomao/index.html"), // 添加 maolegemao 文件作为额外入口
       },
     },
     minify: "terser",
