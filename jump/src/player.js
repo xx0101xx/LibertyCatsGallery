@@ -145,7 +145,7 @@ var player = new (function () {
         var blockY = this.y;
         img.src = "Sprites/Monsters/shoe.png";
         img.onload = function () {
-          ctx.drawImage(img, blockX + 15, blockY + 65, 35, 35);
+          ctx.drawImage(img, blockX + 15, blockY + 58, 35, 35);
         };
       } else {
         // ctx.fillStyle = "blue";
@@ -159,7 +159,7 @@ var player = new (function () {
         var blockY = this.y;
         img.src = "Sprites/Monsters/shoe.png";
         img.onload = function () {
-          ctx.drawImage(img, blockX + 15, blockY + 65, 35, 35);
+          ctx.drawImage(img, blockX + 15, blockY + 58, 35, 35);
         };
       }
     }

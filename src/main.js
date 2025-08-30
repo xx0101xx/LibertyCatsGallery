@@ -33,6 +33,18 @@ window.onload = function () {
               `https://libertycatsgallery.netlify.app/jump/jump.html`,
               "_blank"
             );
+            return
+          }
+
+          if (item.name === "9033") {
+            // location.href = `${location.href}jump/jump.html`;
+            // window.open(`${location.origin}/jump/jump.html`, "_blank");
+            // https://libertycatsgallery.netlify.app/jump/jump.html
+            window.open(
+              `https://libertycatsgallery.netlify.app/model/index.html`,
+              "_blank"
+            );
+            return
           }
           window.open(`${targetUrl}${item.name}`, "_blank");
           return;
