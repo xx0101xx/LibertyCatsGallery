@@ -27,7 +27,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/3.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     view: { x: 13.661, y: 2.1, z: 6.12 },
     scale: { x: 0.1, y: 0.1, z: 0.1 },
@@ -43,7 +43,7 @@ export const data = [
   // ----
   {
     url: "./assets/pictures2/4.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -58,7 +58,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/5.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -73,7 +73,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/6.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -89,7 +89,7 @@ export const data = [
   // ----------
   {
     url: "./assets/pictures2/7.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -104,7 +104,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/8.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -119,7 +119,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/9.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -135,7 +135,7 @@ export const data = [
   // ----
   {
     url: "./assets/pictures2/10.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -150,7 +150,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/11.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -165,7 +165,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/12.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.15, y: 0.15, z: 0.15 },
     position: {
@@ -181,7 +181,7 @@ export const data = [
   // -----
   {
     url: "./assets/pictures2/13.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -196,7 +196,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/14.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -211,7 +211,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/15.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.15, y: 0.15, z: 0.15 },
     position: {
@@ -226,7 +226,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/16.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.15, y: 0.15, z: 0.15 },
     position: {
@@ -242,7 +242,7 @@ export const data = [
 
   {
     url: "./assets/pictures2/17.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     position: {
@@ -257,7 +257,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/18.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.15, y: 0.15, z: 0.15 },
     position: {
@@ -272,7 +272,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/19.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     hidden: true, // 不显示
@@ -288,7 +288,7 @@ export const data = [
   },
   {
     url: "./assets/pictures2/20.jpg",
-    name: "名称",
+    name: "编号",
     desc: "信息描述",
     scale: { x: 0.1, y: 0.1, z: 0.1 },
     hidden: true, // 不显示

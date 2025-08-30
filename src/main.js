@@ -24,26 +24,22 @@ window.onload = function () {
       const targetUrl =
         "https://web3.okx.com/zh-hans/nft/asset/polygon/0x0030f47d6a73bc518cf18fe027ea91dd6b2b6003/";
       if (item.url) {
-        if (item.name !== "名称") {
+        if (item.name !== "编号") {
           if (item.name === "3000") {
-            // location.href = `${location.href}jump/jump.html`;
-            // window.open(`${location.origin}/jump/jump.html`, "_blank");
-            // https://libertycatsgallery.netlify.app/jump/jump.html
-            window.open(
-              `https://libertycatsgallery.netlify.app/jump/jump.html`,
-              "_blank"
-            );
+            // window.open(
+            //   `https://libertycatsgallery.netlify.app/jump/jump.html`,
+            //   "_blank"
+            // );
+            window.location.href = `https://libertycatsgallery.netlify.app/jump/jump.html`;
             return
           }
 
           if (item.name === "9033") {
-            // location.href = `${location.href}jump/jump.html`;
-            // window.open(`${location.origin}/jump/jump.html`, "_blank");
-            // https://libertycatsgallery.netlify.app/jump/jump.html
-            window.open(
-              `https://libertycatsgallery.netlify.app/model/index.html`,
-              "_blank"
-            );
+            // window.open(
+            //   `https://libertycatsgallery.netlify.app/model/index.html`,
+            //   "_blank"
+            // );
+            window.location.href = `https://libertycatsgallery.netlify.app/model/index.html`;
             return
           }
           window.open(`${targetUrl}${item.name}`, "_blank");
