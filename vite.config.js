@@ -33,7 +33,8 @@ export default defineConfig({
       fileName: (format) => `lib/vrhall.${format}.js`,
     },
   },
-  base: "/", // 公共基础路径
+  // base: "/", // 公共基础路径
+   base: '/LibertyCatsGallery/', // 添加这一行，替换为你的仓库名
   server: {
     host: "0.0.0.0",
     port: 3000,
