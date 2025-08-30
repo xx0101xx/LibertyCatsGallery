@@ -199,7 +199,7 @@ window.onload = function () {
   let shtml = "";
   data.forEach((d) => {
     console.log("d===", d);
-    shtml += `<li class="item" data-id="${d.id}">Liberty Cats：${d.name}</li>`;
+    shtml += `<li class="item" data-id="${d.id}">Cats：${d.name}</li>`;
   });
   shtml += `<li class="gravity">重力感应</li>`;
 
