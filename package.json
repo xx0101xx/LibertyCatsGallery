@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:web": "vite build --config vite.web.config.js",
+    "build:web": "vite build --config vite.web.config.js && cd maolegemao && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

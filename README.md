@@ -4,6 +4,9 @@
 
 在线演示：https://libertycatsgallery.netlify.app/
 
+
+<!-- "build:web": "vite build --config vite.web.config.js", -->
+
 <!-- 在线演示：http://test4.h5ds.com/
 
 视频教程：https://www.bilibili.com/video/BV1pb4y13777/?spm_id_from=333.337.search-card.all.click -->
