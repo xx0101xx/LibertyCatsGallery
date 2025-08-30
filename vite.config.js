@@ -6,6 +6,8 @@ const resolve = (url) => path.resolve(__dirname, url);
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // base: "/", // 公共基础路径
+  base: "/LibertyCatsGallery/", // 添加这一行，替换为你的仓库名
   plugins:
     process.env.NODE_ENV === "production"
       ? [
@@ -33,8 +35,7 @@ export default defineConfig({
       fileName: (format) => `lib/vrhall.${format}.js`,
     },
   },
-  // base: "/", // 公共基础路径
-   base: '/LibertyCatsGallery/', // 添加这一行，替换为你的仓库名
+
   server: {
     host: "0.0.0.0",
     port: 3000,

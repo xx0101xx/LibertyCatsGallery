@@ -8,8 +8,8 @@
     "build": "vite build",
     "build:web": "vite build --config vite.web.config.js",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
-    "build-deploy": "vite build && npm run deploy"
+    "deploy": "gh-pages -d www", 
+    "build-deploy": "npm run build:web && npm run deploy" 
   },
   "dependencies": {
     "camera-controls": "^1.37.4",

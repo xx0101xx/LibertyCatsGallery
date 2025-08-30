@@ -62,5 +62,7 @@ export default defineConfig({
       },
     },
   },
-  base: "/", // 公共基础路径
+  // base: "/", // 公共基础路径
+  base: "/LibertyCatsGallery/", // 添加这一行，替换为你的仓库名
+  
 });
