@@ -10,7 +10,7 @@ export default defineConfig({
     }),
   ],
     // 入口
-  build: {
-    outDir: "maomao",
-  },
+  // build: {
+  //   outDir: "maomao",
+  // },
 });
