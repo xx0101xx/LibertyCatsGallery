@@ -471,7 +471,8 @@ export class VRHall {
           3
         );
       } else if(mesh.name==='jianjieqiang'){
-          window.open("https://www.libertycatsnfts.com");
+          // window.open("https://www.libertycatsnfts.com");
+          window.location.href="https://www.libertycatsnfts.com"
       }
     }
   }
